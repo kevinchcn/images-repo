@@ -1,6 +1,7 @@
 # images 
 ## airflow
 #1
+
 airflow@f7a4f627a0b6:/opt/airflow$ apt search openssl
 Sorting... Done
 Full Text Search... Done
@@ -17,6 +18,7 @@ openssl/now 1.1.1n-0+deb10u1 amd64 [installed,local]
   Secure Sockets Layer toolkit - cryptographic utility
 
 #2
+
 airflow@e213a5d2ab74:/opt/airflow/openssl-1.1.1n$ openssl version -a
 OpenSSL 1.1.1n  15 Mar 2022
 built on: Fri Mar 18 18:41:12 2022 UTC
